@@ -1,8 +1,15 @@
 # Cozyplace Homelab
 
+
+<img src="./assets/rack.jpeg" alt="The Cluster" width="210" align="right"/>
+
 > A deep dive into my self-hosted, on-prem infrastructure — built for learning, tinkering, and owning my own data.
 
 This repo documents everything about my homelab: the hardware it runs on, how the network is designed, what services are deployed, and the lessons learned along the way. Whether you're just getting started or looking for ideas to level up your own setup, I hope you find something useful here.
+
+The stack runs on a mix of x86 mini PCs and a Raspberry Pi, managed through Proxmox and connected via a Ubiquiti network with full VLAN segmentation. A UGREEN NAS handles bulk storage and backups, while services like GitLab, Grafana, Jellyfin, and more run across the cluster.
+
+<br clear="right"/>
 
 ---
 
