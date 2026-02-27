@@ -62,6 +62,8 @@ Handles bulk storage, backups, and media. Upgraded RAM makes it surprisingly cap
 | Drives | 2x8 TB Seagate IronWolf HDD + 700 GB HDD |
 | Cache | 2x1 TB SSD — Samsung 990 PRO M.2 |
 
+> **Heads up if you're choosing a NAS:** The UGREEN DXP series is solid hardware at a great price, but UGOS has some software limitations worth knowing about. NFS only supports IP-based access control (no user/password auth), the GUI is limited to NFSv3, and the built-in backup tools use proprietary formats — making file-level off-site backups harder without custom scripts. See [Storage — Tips & Gotchas](storage.md#tips--gotchas) for details.
+
 ---
 
 ## What's Next
